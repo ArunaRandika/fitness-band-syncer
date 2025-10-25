@@ -1,4 +1,7 @@
-package com.example.fitnessband.domain.model
+package com.example.fitnessband.presentation.viewmodel
+
+import com.example.fitnessband.domain.model.ConnectionState
+import com.example.fitnessband.domain.model.FitnessData
 
 data class MiBandUiState(
     val connectionState: ConnectionState = ConnectionState.Disconnected,
